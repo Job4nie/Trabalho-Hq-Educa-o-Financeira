@@ -1,0 +1,144 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.pai {
+}
+#quadrados{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.qua1{
+	background-color: white;
+	margin-right: 55px;
+	margin-top: 35px;
+	border-radius: 3px;
+}
+
+.qua2{
+	background-color: white;
+	margin-right: 55px;
+	margin-bottom: 35px;
+	border-radius: 3px;
+}
+
+a {
+	margin-top: 10px;
+	color: black;
+}
+h2 {
+	font-size: 10;
+}
+.barra {
+	width: 100%
+	height: 20vh;
+	background-color: darkgreen;
+
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.info {
+	width: 100%;
+	height: 70vh;
+	background-color: white;
+	display: flex;
+}
+
+.quadro {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 140%;		
+	font-size: 11px;
+
+}
+
+.quadro1 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.kadro{
+	margin-top: 15px;
+	background-color: #007B40;
+	width: 25%;
+	height: 30vh;
+	color: white;
+	font-family: Arial;
+}
+
+.quadro2 {
+	margin-top: 5px;
+}
+
+.saiba {
+	font-size: 30px;
+	margin-top: 50px;
+}
+
+.sobre{
+	margin-right: 200px;
+	margin-left: 30px;
+	font-size: 	20px;
+}
+
+.financeira {
+	margin-left: 35px;
+}
+
+.rodape {
+	width: 100%;
+	height: 14vh;
+	background-color: darkgreen;
+}
+
+#desenvolvido {
+	color: white;
+	font-size: 25px;
+	margin-top: 40px;
+	margin-left: 250px;
+}
+
+.quadrinhos {
+	width: 100%;
+	height: 70vh;
+	background-color: white;
+}
+
+#estrutura {
+	margin-top: 50px;
+	margin-left: 120px;
+}
+
+@media (max-width: 760px) {
+#desenvolvido {
+	color: white;
+	font-size: 18.5px;
+	margin-top: 40px;
+	margin-left: 17px;
+}
+#quadrin {
+	width: 95%;
+}
+#estrutura {
+	margin-top: 50px;
+	margin-left: 45px;
+	margin-bottom: 100px;
+}
+.rodape {
+	width: 100%;
+	height: 10vh;
+	background-color: darkgreen;
+	margin-top: 6100px;
+	}
+}
